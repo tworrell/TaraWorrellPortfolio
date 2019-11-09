@@ -1,0 +1,53 @@
+/* CSS layout */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+    min-width: 600px;
+    align-content: center;
+}
+
+#left_col {
+	float: left;
+	width: 200px;
+}
+
+#right_col {
+	float: right;
+	width: 200px;
+}
+
+#page_content {
+	margin-right: 200px;
+	margin-left: 200px;
+
+}
+
+#container {
+	
+	background-image: url('hills.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	max-width: 1024px;
+	max-height:1008px;
+	margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    align-content: center;
+} 
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-family: "Monotype Corsiva";
+	font-size: large;
+	color: #000000;
+	background-color: #000000;
+	
+}
+
+marquee{
+    color: white;
+}
